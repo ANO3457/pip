@@ -24,6 +24,7 @@ htmlcov/
 .coverage.*
 .*cache
 nosetests.xml
+temp_auto_push.bat
 coverage.xml
 *.cover
 tests/data/common_wheels/
@@ -38,7 +39,6 @@ tests/data/common_wheels/
 .idea/
 
 # For Visual Studio Code
-.vscode/
 
 # For Sublime Text
 *.sublime-workspace
@@ -52,3 +52,5 @@ tests/data/common_wheels/
 
 # Profiling related artifacts
 *.prof
+.gitignore
+branch_structure.json
